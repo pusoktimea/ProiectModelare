@@ -1,0 +1,56 @@
+{
+  "posts": [
+    {
+      "title": "Szeeeeexy",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "postId": "1",
+      "content": "g",
+      "id": 1
+    },
+    {
+      "postId": "1",
+      "id": 2
+    },
+    {
+      "postId": "1",
+      "content": "gfcvb",
+      "id": 3
+    },
+    {
+      "postId": "1",
+      "content": "hbj",
+      "id": 4
+    },
+    {
+      "postId": "1",
+      "content": "gcvbxcvv",
+      "id": 5
+    },
+    {
+      "postId": "1",
+      "id": 6
+    },
+    {
+      "postId": "1",
+      "content": "sdgfsdf",
+      "id": 7
+    },
+    {
+      "postId": "1",
+      "content": "hgh",
+      "id": 8
+    },
+    {
+      "postId": "1",
+      "id": 9
+    },
+    {
+      "postId": "1",
+      "id": 10
+    }
+  ]
+}
