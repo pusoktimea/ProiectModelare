@@ -1,0 +1,106 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+[class*='col-'] {
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 20px; }
+
+[class*='col-']:last-of-type {
+  padding-right: 0; }
+
+.grid {
+  margin: 0;
+  display: inline-block; }
+
+.module {
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  color: #eee;
+  max-height: 120px;
+  min-width: 120px;
+  background-color: #607D8B;
+  background-color: #0078d7;
+  border-radius: 2px; }
+
+.module:hover {
+  background-color: #EEE;
+  background-color: #CCC;
+  cursor: pointer;
+  color: #607d8b; }
+
+#add-new-post {
+  margin-top: 20px; }
+
+#add-new-post input {
+  width: 400px; }
+
+button.delete-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: gray !important;
+  color: white; }
+
+#add-button {
+  vertical-align: text-bottom; }
+
+.comments {
+  list-style-type: none;
+  padding: 0; }
+
+.comments li {
+  position: relative;
+  left: 0;
+  background-color: #e4f0f3;
+  margin: .5em .5em .5em 0;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px; }
+
+.comments .text {
+  position: relative;
+  top: -3px; }
+
+button.delete-button {
+  float: right;
+  background-color: gray !important;
+  background-color: #d83b01 !important;
+  color: white; }
+
+body {
+  margin: 32px;
+  font-family: "Roboto", Arial, sans-serif; }
+
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 5px; }
+
+nav a:visited, a:link {
+  color: #607D8B; }
+
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC; }
+
+nav a.active {
+  color: #039be5; }
+
+button {
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand; }
+
+button:hover {
+  background-color: #cfd8dc; }
